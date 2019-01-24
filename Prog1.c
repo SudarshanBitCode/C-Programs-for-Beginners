@@ -3,9 +3,10 @@
 
 int main()
 {
-	int i = 5;
-	int j = 7;
+	int i, j ;
 	int k;
+	printf("Enter two number : ");
+	scanf("%d &d", &i, &j);
 	
 	k = i+j;
 	
